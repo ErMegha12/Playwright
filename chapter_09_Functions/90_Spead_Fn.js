@@ -19,3 +19,4 @@ hasError(...responseCodes); //  true
 console.log(add(...num)); // 6
 console.log(hasError(...responseCodes)); // true
 console.log(hasError(200, 201, 404)); // true
+console.log(hasError(200, 201, 300)); // false  
